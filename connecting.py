@@ -24,7 +24,7 @@ cursor = conn.cursor()
 
 def load_data(schema, table):
 
-    sql_command = "SELECT * FROM {}.{};".format(str(schema), str(table))
+    sql_command = "SELECT * FROM {}.{};".format(str(schema), str(table)) #you can adjust the query itself here
     print (sql_command)
 
     # Load the data
@@ -33,4 +33,4 @@ def load_data(schema, table):
     print(data.shape)
     return (data)
 
-jd_do = load_data("public","jd_do")
+jd_do = load_data("schema_name","table_name")
