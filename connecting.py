@@ -13,8 +13,8 @@ import connection_stat as stat
 import pandas.io.sql as psql
 #import sys
 
-conn_string = "host="+ stat.postgrehost +" port="+ "5432" +" dbname="+ stat.postgredatabase +" user=" + stat.postgreuser \
-+" password="+ stat.postgrepassword
+conn_string = "host="+ stat.postgre_host +" port="+ stat.postgre_port +" dbname="+ stat.postgre_database +" user=" + stat.postgre_user \
++" password="+ stat.postgre_password
 conn=psycopg2.connect(conn_string)
 print("Connected!")
 

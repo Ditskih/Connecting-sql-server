@@ -5,7 +5,8 @@ Created on Sat Jul  4 10:14:38 2020
 @author: Ditskih
 """
 
-postgrehost="your_hosting_site" #if you run in your own laptop / local, you can use "localhost"
-postgredatabase="database_name"
-postgreuser="postgres_user"
-postgrepassword="postgres_pw"
+postgre_host="your_hosting_site" #if you run in your own laptop / local, you can use "localhost"
+postgre_port="your_port"
+postgre_database="database_name"
+postgre_user="postgres_user"
+postgre_password="postgres_pw"
